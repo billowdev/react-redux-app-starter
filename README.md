@@ -2,6 +2,68 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## tree
+
+```
+📦react-redux-app-starter
+ ┣ 📂public
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜logo192.png
+ ┃ ┣ 📜logo512.png
+ ┃ ┣ 📜manifest.json
+ ┃ ┗ 📜robots.txt
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┣ 📂helpers
+ ┃ ┃ ┗ 📜useLocalStorage.ts
+ ┃ ┣ 📂resources
+ ┃ ┃ ┗ 📂static
+ ┃ ┃ ┃ ┣ 📂css
+ ┃ ┃ ┃ ┃ ┗ 📜index.css
+ ┃ ┃ ┃ ┗ 📂images
+ ┃ ┣ 📂services
+ ┃ ┃ ┣ 📂api
+ ┃ ┃ ┃ ┣ 📜articles.ts
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┃ ┣ 📂logger
+ ┃ ┃ ┃ ┣ 📜console.ts
+ ┃ ┃ ┃ ┗ 📜elasticSearch.ts
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂store
+ ┃ ┃ ┣ 📂articles
+ ┃ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┃ ┣ 📜middleware.ts
+ ┃ ┃ ┃ ┣ 📜reducer.ts
+ ┃ ┃ ┃ ┣ 📜selector.ts
+ ┃ ┃ ┃ ┗ 📜types.ts
+ ┃ ┃ ┣ 📂ui
+ ┃ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┃ ┣ 📜middleware.ts
+ ┃ ┃ ┃ ┣ 📜reducer.ts
+ ┃ ┃ ┃ ┣ 📜selector.ts
+ ┃ ┃ ┃ ┗ 📜types.ts
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┣ 📜middlewares.ts
+ ┃ ┃ ┗ 📜reducers.ts
+ ┃ ┣ 📂tests
+ ┃ ┃ ┣ 📜articles.test.ts
+ ┃ ┃ ┗ 📜ui.test.ts
+ ┃ ┣ 📂views
+ ┃ ┃ ┗ 📜index.tsx
+ ┃ ┣ 📜config.ts
+ ┃ ┣ 📜index.tsx
+ ┃ ┗ 📜react-app-env.d.ts
+ ┣ 📜.env.local
+ ┣ 📜.gitignore
+ ┣ 📜env.local
+ ┣ 📜jest.config.ts
+ ┣ 📜package.json
+ ┣ 📜README.md
+ ┣ 📜tsconfig.json
+ ┗ 📜yarn.lock
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
