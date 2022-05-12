@@ -1,0 +1,1 @@
+export const getLoading = (state: { ui: { loading: Boolean; }; }) => state.ui.loading;
